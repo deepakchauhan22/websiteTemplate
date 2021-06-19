@@ -1,0 +1,902 @@
+.bg-secondary{
+  background-color: #273746; 
+}
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px;
+  color: #000;
+}
+
+.intro h2::first-letter {
+  font-size: 200%;
+  color: #6b5b95;
+}
+.intro{
+  padding: 20px 50px 50px 10px;
+}
+
+.intro h1{
+
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: #3e4444;
+  
+}
+.intro h2{
+
+  font-size: 1.75rem;
+
+}
+
+.intro h2 a{
+
+  font-size: 1.5rem!important;
+  text-decoration: none!important;
+  background: none!important;
+
+}
+
+.intro p{
+  margin-top: 20px;
+  font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    font-family: 'MarkPro-Medium',sans-serif;
+    color: #333;
+
+    font-size: .76471rem;
+    font-weight: 500;
+    letter-spacing: .05882rem;
+}
+/* 
+border-bottom: 1px ridge;  */
+
+.row-content {
+  margin: 0px auto;
+  padding: 10px 0px;
+  min-height: 400px; }
+
+  .footer-content {
+    margin: 0px auto;
+    padding:25px 30px;
+    min-height: 230px; }
+.socialblock {
+  height: 200px; }
+
+.jumbotron {
+  margin: 0px auto;
+  border: none;
+  border-radius: 0;
+  padding: 70px 30px;
+background: none;
+  padding: 55px 30px 30px 30px;
+  color: floralwhite; }
+
+/* .GymMembership{
+  color: #000;
+  background-color: #fff;
+} */
+
+  .downarrow{ 
+    position: relative;
+    float: left;
+    left: 10%;
+    top:10%;
+  }
+
+  .logo i{
+    color: #6b5b95;
+}
+.container-fluid{
+  padding-right: 0px;
+    padding-left: 0px;
+    overflow: hidden;
+}
+  .discount{
+
+    /* background: linear-gradient(
+120deg
+,#001c24,#020e1a); */
+background-color: #deeaee;
+ 
+  }
+#discount-block h2{
+
+    letter-spacing: normal;
+    line-height: 2.94118rem;
+    font-size: 35px;
+    font-weight: bolder;
+
+}
+  
+.industry-grid{
+  display: flex;
+    flex-direction: column;
+    padding: 10px 24px;
+    background: #fff;
+    margin: 0px auto;
+    width: 800px;
+    border-radius: 4px;
+    box-shadow: 0 8px 26px 0 rgb(0 0 0 / 8%);
+    background-color: #fff;
+}
+
+.grid_row{
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.grid_item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 160px;
+  height: 112px;
+  cursor: pointer;
+  padding: 24px 16px 16px;
+  overflow: hidden;
+}
+.grid_img{
+  width: 32px;
+    height: 32px;
+}
+.grid_text{
+  display: inline-block;
+    margin-top: 16px;
+    font-size: 13px;
+    line-height: 16px;
+    color: #212121;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+#reservebtn a {
+  font-size: 1.1rem;
+  line-height: 1.2;
+  background: #deeaee;
+  font-weight: 600;
+  color: #000;
+  /* border: 1px solid; */
+  border-radius: 0%;
+  border-width: 0.5px;
+  border-radius: 4px;
+}
+
+.discount-block h2{
+  margin-bottom: 0%!important;
+}
+
+#discount-block h5{
+ 
+    font-size: .9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #3e4444;
+    letter-spacing: 1px;
+
+}
+
+.fitplans{
+  padding: 4rem 7rem;
+}
+.deals h3{
+  line-height: 1.5;
+  color: #233143;
+    font-weight: 500;
+    border-left: 5px solid #6b5b95;
+}
+.discount-block-img{
+  padding: 50px;
+}
+
+#discount-block a{
+  background-color: #fff;
+  font-weight: 600;
+  color: #000;
+  padding: .2rem 0.8rem;
+  border-radius: 0%;
+  border-width: 0.5px;
+}
+.equipment{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 600;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.8); /* Black background with 0.5 opacity */
+  color: white;
+  padding: 20px;
+}
+.equipment:hover{
+ 
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+
+}
+ .underline-text a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  top: 5px;
+  left: 50%;
+  position: relative;
+  background: #000;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.underline-text  a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #969696; }
+  .socialblock h2{
+
+    text-align: center;
+  }
+.phonebook span{
+  padding:0px;
+  display: block;
+}
+.phonebook a {
+  background:none!important;
+  color: #000;
+  font-size: 18px;
+  font-weight: normal!important; 
+  text-decoration:none;
+}
+.deals a{
+  font-size: 13px!important;
+}
+body {
+  padding: 0px 0px 0px 0px;
+  z-index: 0; }
+
+  .header-top_area{
+    display: block;
+  }
+
+  .header-area .header-top_area {
+    padding: 10px 0;
+}
+
+.header-area .header-top_area .short_contact_list {
+  text-align: center;
+}
+.header-area .header-top_area .social_media_links {
+  text-align: center;
+}
+.header-area .header-top_area .short_contact_list ul {
+  margin-bottom: 0rem;
+
+}
+.header-area .header-top_area .short_contact_list ul li {
+
+  display: inline-block;
+}
+.header-area .header-top_area .short_contact_list ul li a {
+  font-size: 14px;
+  color: #222222;
+  margin-right: 40px;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+.header-area .header-top_area .short_contact_list ul li a i {
+  margin-right: 10px;
+  font-size: 20px;
+}
+.header-area .header-top_area .social_media_links a {
+  font-size: 15px;
+  color: #222222;
+  margin-right: 12px;
+  text-decoration: none;
+}
+
+  .header-area {
+    left: 0;
+    right: 0;
+    width: 100%;
+    top: 0;
+    z-index: 9;
+    padding: 0 100px 0px 100px;
+    background: #F3F4F7;
+    border-bottom: 1px solid #e4e7ed;
+}
+/* .navbar{
+  background: #9575CD;
+   
+   
+} */
+#Navbar span{ 
+  justify-content: end;
+}
+.navbar-brand {
+  font-size: 35px;
+  font-weight: bolder; }
+  
+.navbar-inverse {
+  background-color: #512DA8; }
+
+.navbar-dark {
+  background: #512DA8; }
+
+
+.navbar-nav .nav-link {
+  margin-right: 25px;
+  margin-top: 10px;
+  color: #333;
+  padding: 0;
+  background: none;
+  text-transform: capitalize;
+  font-family: 'MarkPro-Medium',sans-serif;
+    line-height: 3.76471rem;
+    font-size: .76471rem;
+    font-weight: 500;
+    letter-spacing: .05882rem;
+}
+
+  .navbar-nav{
+    margin: 10px 0px 10px 60px;
+
+  }
+
+.navbar-custom {
+  color: #fff; }
+  .navbar-custom .navbar-brand {
+    color:#3e4444; }
+  .navbar-custom .navbar-text {
+    background: none;
+    padding: 7px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none; }
+
+  .navbar-custom .join-now {
+    color: #fff;
+    border: 1px solid;
+    border-width: 0.5px;
+
+  }
+
+.posty:hover{ 
+  text-decoration:none;
+  color: #000;
+}
+.fa-home{
+  color:#85929E ;
+}
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px; }
+
+
+.realestates{
+  background-color: #8d9db6;
+  -webkit-box-shadow: -1px 0px 32px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 0px 32px -9px rgba(0,0,0,0.75);
+box-shadow: -1px 0px 32px -9px rgba(0,0,0,0.75);
+}
+.realestate .opening-time {
+  padding-left: 0; }
+  .realestate  .opening-time li {
+    list-style: none; }
+    .realestate  .opening-time li span {
+      position: relative;
+    float: left;
+    padding-right: 10px;}
+      .realestate  .opening-time li span .fa-times {
+        color: #ECF0F1 ; }
+        .realestate  .opening-time li strong {
+      color:#212529 ; }
+
+.propServices h1, .fitplans h1, .gymtiming h1{
+  color: #000;
+}
+.open-time{
+  padding: 20px 30px 20px 30px;
+}
+.gym-address{
+ 
+    padding-bottom: 15px;
+  
+}
+ .socialblock h2{
+   display: block;
+ }
+ #socialbtn {
+   position: relative;
+   top: 20%;
+ }
+#socialbtn .btn {
+  background: #fff;
+  color: #000;
+  margin: 10px; }
+
+  .btn-social-icon.btn-lg {
+   font-size: 15px;
+   }
+
+#socialbtn .btn-instagram:hover {
+  background: #C13584;
+  color: #fff; }
+
+#socialbtn .btn-twitter:hover {
+  background: #00acee;
+  color: #fff; }
+
+#socialbtn .btn-facebook:hover {
+  background: #3b5998;
+  color: #fff; }
+
+.carousel-nav-icon {
+  height: 48px;
+  width: 48px; }
+
+.carousel-item .col, .carousel-item .col-sm, .carousel-item .col-md {
+  margin: 8px;
+  height: 260px;
+  background-size: cover;
+  background-position: center center; }
+
+  .contact-section h1{
+    font-size: 1.5rem;
+  }
+  .contact-heading h1{
+    font-size: 2.5rem;
+  }
+
+  .prop-desc{
+    background:#F0F3F4!important;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  .mainhero{
+    /* -webkit-box-shadow: -1px 0px 32px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 0px 32px 0px rgba(0,0,0,0.75);
+box-shadow: -1px 0px 32px 0px rgba(0,0,0,0.75);
+
+-webkit-box-shadow: 0 9px 20px rgb(13 38 76 / 10%);
+box-shadow: 0 9px 20px rgb(13 38 76 / 10%); */
+-webkit-box-shadow: -1px 2px 34px 21px rgba(242,242,242,1);
+-moz-box-shadow: -1px 2px 34px 21px rgba(242,242,242,1);
+box-shadow: -1px 2px 34px 21px rgba(242,242,242,1);
+
+
+  } 
+  #specs{
+    background-color: #8d9db6;
+    margin: 50px 25px 25px 25px;
+    -webkit-box-shadow: -1px 0px 32px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 0px 32px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 0px 32px 0px rgba(0,0,0,0.75);
+
+  }
+  #specs .fas{
+    padding: 20px;
+    font-size: 40px;
+   color: #ECF0F1;
+
+  }
+.carousel-item .badge-danger {
+  background: #48C9B0;
+  color: black;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .3rem; }
+  .pride h1 {
+    text-align: center;
+    position: relative;
+    top: 40%;
+}
+.pain h1{
+  text-align: center;
+  position: relative;
+  top: 40%;
+}
+.middle .below{
+  text-align: center;
+}
+  .posty{
+    text-decoration:none;
+    color: #000;
+    padding: 10px;
+    margin: 10px;
+    
+  }
+
+
+.modal-content .modal-header {
+  background: #48C9B0;
+  color: floralwhite;
+  border-bottom: none; }
+  .modal-content .modal-header .close {
+    color: floralwhite; }
+
+.modal-content .modal-body {
+  background: #D1C4E9; }
+
+.modal-content .modal-footer {
+  background: #9575CD;
+  border-top: none; }
+
+footer {
+  background-color: #ffffff;
+  padding: 0px 0 0px 0px;
+  font-size: 1rem;
+  line-height: 1.5; }
+  footer .footer-widget h2 {
+    margin-bottom: 30px; }
+  footer .footer-widget ul {
+    padding-left: 0; }
+    footer .footer-widget ul li a {
+      color: black; }
+  footer .contact-link {
+    display: inline-block;
+    width: 100%;
+    color: #333; }
+  footer .footer-social ul {
+    padding-left: 0; }
+    footer .footer-social ul li {
+      list-style: none;
+      float: left;
+      padding: 0 10px; }
+      footer .footer-social ul li:first-child {
+        padding-left: 0; }
+      footer .footer-social ul li a {
+        font-size: 20px;
+        color: #333; }
+        footer .footer-social ul li a:hover {
+          color: #FF7F57; }
+
+  footer .opening-time {
+    padding-left: 0; }
+    footer .opening-time li {
+      list-style: none; }
+      footer .opening-time li span {
+        float: left;
+        padding-right: 10px; }
+        footer .opening-time li span .fa-times {
+          color: #48C9B0; }
+      footer .opening-time li strong {
+        color: #48C9B0; }
+  footer .media-body a {
+    color: #333; }
+    footer .media-body a:hover {
+      color: #FF7F57; }
+  footer .media-body span {
+    color: #969696; }
+  footer .images-gellary ul {
+    padding-left: 0; }
+    footer .images-gellary ul li {
+      list-style: none;
+      float: left;
+      margin: 0 3% 2% 0;
+      width: 31%;
+      position: relative; }
+      footer .images-gellary ul li:nth-child(3n) {
+        margin: 0 0 1%; }
+
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none !important; }
+
+  .gymhour{
+    -webkit-box-shadow: -9px 8px 35px 1px rgba(214,219,223,1);
+    -moz-box-shadow: -9px 8px 35px 1px rgba(214,219,223,1);
+    box-shadow: -9px 8px 35px 1px rgba(214,219,223,1);
+  }
+
+
+
+ 
+
+
+  @media (min-width: 1200px) and (max-width: 1800px) { 
+
+
+    .GetInTouch{
+      margin-left: 200px;
+    }
+    
+     }
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+  
+.intro{
+  padding: 30px 40px 0px 10px;
+}
+#socialbtn {
+  position: relative;
+  top: 10%;
+}
+
+
+ }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+  .pride h1 {
+    font-size: 2.1rem;
+    top: 35%;
+}
+.pain h1 {
+  font-size: 2.1rem;
+  top: 35%;
+}
+
+  .open-time {
+    padding: 10px 0px 20px 0px;
+}
+.intro{
+  padding: 10px 40px 0px 10px;
+}
+.mainhero {
+  margin-top: 40px;
+}
+.jumbotron .container{
+  padding: 0px;
+ }
+
+.navbar-brand {
+  font-size: 30px;
+  font-weight: bolder;
+}
+.navbar-nav{
+  margin: 0px 0px 0px 10px;
+
+}
+.navbar-nav .fa , .fas{
+  display: none;
+}
+.navbar-nav .fas{
+  display: none;
+}
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  .footer-content {
+    margin: 0px auto;
+    padding: 25px 20px;
+    min-height: 230px;
+}
+  .intro {
+    padding: 5px;
+}
+  .navbar-brand {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-right: 0rem;
+   }
+ .navbar .container{
+   padding: 0px;
+ }
+ .navbar-nav span{
+         display: none;
+ }
+ .jumbotron {
+   padding: 15px 10px 20px 10px;
+ }
+ .jumbotron .container{
+  padding: 0px;
+ }
+ #bgimg h2{
+ font-size: 25px;
+ }
+ #bgimg p{
+  font-size: 13px;
+  }
+  #socialbtn {
+    position: relative;
+    top: 5%;
+}
+#reservebtn a {
+  font-size: 1rem;
+  line-height: 1.2;
+}
+.mainhero{
+  margin-top: 10px;
+}
+.discount-block-img {
+  padding: 0px;
+}
+.equipment {
+  font-size: 15px;
+  padding: 10px;
+}
+.fitplans h1{
+ font-size: 25px;
+}
+.fitplans p{
+  font-size: 13px;
+ }
+ #specs {
+   margin: 20px 5px 5px 5px;
+ }
+ #specs h2 {
+  font-size: 25px;
+}
+#specs h4 {
+  font-size: 20px;
+}
+.pride h1 {
+  font-size: 1.8rem;
+    top: 35%;
+    right: 11%;
+
+}
+.pain h1 {
+font-size: 1.8rem;
+top: 35%;
+}
+}
+
+   @media (min-width: 250px) and (max-width:575.98px) { 
+
+    .footer-content {
+      margin: 0px auto;
+      padding: 25px 10px;
+      min-height: 230px;
+  }
+    
+        .navbar-brand {
+          font-size: 30px;
+          font-weight: bolder;
+      }
+      footer {
+        padding: 0px 0 0px 0px;
+        }
+    .jumbotron {
+      padding: 5px 15px 10px 15px;
+    }
+    .intro h2::first-letter {
+      font-size: 200%;
+      color: #000;
+    }
+    .intro h2 {   
+      font-size: 1.5rem;
+    }
+    #socialbtn {
+      position: relative;
+      top: 5%;
+  }
+  .downarrow{ 
+    position: relative;
+    float: left;
+    left: 0%;
+    top:10%;
+  }
+  #discount-block h2{
+    font-size: 1.5rem;
+  }
+  .discount-block-img{
+    padding: 20px;
+  }
+  #specs{
+
+    margin: 20px 0px 0px 0px;
+  }
+  #specs .fas {
+    padding: 10px;
+    font-size: 40px;
+  }
+  #specs h2{
+    font-size: 1.5rem;
+  }
+  .contact-heading h1 {
+    font-size: 1.5rem;
+}
+.open-time{
+  padding: 0px;
+  padding-top: 10px;
+}
+.footer-widget-content .open-time{
+  padding: 0px;
+}
+    h1 {
+      font-size: 2.1rem;
+     }
+     h4 {
+      font-size: 1.2rem;
+  }
+   .btn{
+      padding: .375rem .75rem;
+      font-size: 1rem;
+    }
+    .row-content {
+      margin: 0px auto;
+      padding: 10px 0px;
+    }
+    #discount-block p{
+         font-size: 15px;
+    }
+    .intro{
+      font-size: 15px;
+    }
+    .deals{
+      font-size: 15px;
+    }
+
+    .carousel-nav-icon{
+             display: none;
+    }
+    #Navbar{
+      background: none ;
+    }
+    .navbar-collapse{
+        padding: 10px;
+    }
+  
+    .pride h1 {
+      font-size: 1.1rem;
+      top: 30%;
+      right: 12%;
+  }
+  .pain h1 {
+    font-size: 1.1rem;
+    top: 30%;
+    right: 12%;
+}
+  
+  }
+
+  @media (min-width: 100px) and (max-width: 372px){
+      .pride h1 {
+        font-size: 0.8rem;
+        top: 30%;
+        right: 30%;
+      }
+      .pain h1 {
+        font-size: 0.8rem;
+        top: 30%;
+        right: 30%;
+      }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

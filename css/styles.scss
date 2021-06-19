@@ -1,0 +1,312 @@
+
+@property --num {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+
+.newde {
+  animation: counter 5s infinite alternate ease-in-out;
+  counter-reset: num var(--num);
+  font: 800 40px system-ui;
+  padding: 2rem;
+}
+.newde::after {
+  content: counter(num);
+}
+
+@keyframes counter {
+  from {
+    --num: 500;
+  }
+  to {
+    --num: 700;
+  }
+}
+
+
+// $lt-gray: #ddd;
+// $background-dark: #512DA8;
+// $background-light: #9575CD;
+// $background-pale: #D1C4E9;
+// $color-black : #000000;
+
+// $sneha-fav-clor: #969696;
+
+// // Height variables
+// $carousel-item-height: 300px;
+
+// @mixin zero-margin($pad-up-dn, $pad-left-right) {
+// 	margin:0px auto;
+// 	padding: $pad-up-dn $pad-left-right;
+// }
+
+// .row-header{
+//     @include zero-margin(0px,0px);
+//     color: #000;
+//     border-bottom: 1px ridge;
+// }
+
+// .row-content {
+//     @include zero-margin(50px,0px);
+//     border-bottom: 1px ridge;
+//     min-height:400px;
+   
+// }
+// .socialblock{
+//     height: 200px;
+// }
+
+// .jumbotron {
+//     @include zero-margin(70px,30px);
+//     background: $background-light ;
+//     padding: 100px 30px 30px 30px;
+//     color:floralwhite; 
+// }
+
+// #reservebtn{
+//     a{
+//         background: #FF7F57;
+//     }
+// }
+
+// address{
+//     font-size:80%;
+//     margin:0px;
+//     color:$sneha-fav-clor;
+// }
+
+// body{
+//     padding:50px 0px 0px 0px;
+//     z-index:0;
+// }
+
+// .navbar-brand {
+//  font-size: 35px;
+//  font-weight: bolder;
+// }
+// .navbar-inverse {
+//      background-color: $background-dark;
+// }
+// .navbar-dark{
+//     background: $background-dark;
+    
+// }
+// .navbar-nav{
+//     .nav-link{
+//         margin-right: 30px;
+//         margin-top: 10px;
+//         color: #000000;
+        
+//     }
+// }
+
+// .navbar-custom {
+//     color: #000000;
+//     .navbar-brand{
+//         color: #000000;
+//      }
+//      .navbar-text{
+//         background: none;
+//         border-style: solid;
+//         border-width: 0.5px;
+//         border-radius: 50px;
+//         padding: 7px 10px;
+//         font-size: 16px;
+//         font-weight: 600;
+//         line-height: 1.2;
+//         text-align: center;
+//         text-decoration: none;
+//      }
+//      .join-now {
+//         background: #FF7F57;
+//      }
+// }
+// .tab-content {
+//     border-left: 1px solid $lt-gray;
+//     border-right: 1px solid $lt-gray;
+//     border-bottom: 1px solid $lt-gray;
+//     padding: 10px;
+// }
+// #socialbtn{
+//     .btn{
+//         background: #fff;
+//         color: #000;
+//         margin: 10px;
+//     }
+//     .btn-instagram:hover{
+//         background: #C13584;
+//         color: #fff;
+        
+//     }
+//     .btn-twitter:hover{
+//         background: #00acee ;
+//         color: #fff;
+//     }
+//     .btn-facebook:hover{
+//         background: #3b5998 ;
+//         color: #fff;
+//     }
+   
+// }
+
+
+// .carousel-nav-icon {
+//     height: 48px;
+//     width: 48px;
+//  }
+//  .carousel-item {
+  
+//     .col, .col-sm, .col-md {
+//        margin: 8px;
+//        height: 260px;
+//        background-size: cover;
+//        background-position: center center;
+//     }
+//     .badge-danger{
+//         background:#FF7F57;
+//         color: black;
+//         font-size: 1rem;
+//         line-height: 1.5;
+//         border-radius: .3rem;
+//     }
+//  }
+// .discount{
+//      #discount-block{
+      
+//         height: 200px;
+//      }
+//     button{
+//         font-size: 1.5rem;
+//         line-height: 1.5;
+//         border: dashed;
+//         border-radius: .3rem;
+//         font-weight: bolder;
+//         background:#FF7F57;
+//     }
+// }
+// .modal-content {
+// 	.modal-header {
+// 		background:$background-dark;
+// 		color:floralwhite;
+// 		border-bottom: none;
+
+// 		.close {
+// 			color:floralwhite;
+// 		}
+// 	}
+
+// 	.modal-body {
+// 		background:$background-pale;
+// 	}
+
+// 	.modal-footer {
+// 		background:$background-light;
+// 		border-top: none;
+// 	}
+// }
+
+// footer{
+//     background-color: #ffffff;
+//     padding: 70px 0 0px 0px;
+//     font-size: 1rem;
+//     line-height: 1.5;
+  
+//     .footer-widget{
+//       h2{
+//         margin-bottom: 30px;
+//       }
+     
+//         ul{
+//             padding-left: 0;
+//             li{
+//                 a{
+//                     color: black;
+//                   }
+//             }
+            
+//         }
+         
+       
+//       }
+    
+//     .contact-link{
+//       display:inline-block;
+//       width: 100%;
+//       color: #333;
+//     }
+//     // footer social
+//     .footer-social{
+//       ul{
+//         padding-left: 0;
+//         li{
+//           list-style: none;
+//           float: left;
+//           padding: 0 10px;
+//           &:first-child{
+//             padding-left: 0;
+//           }
+//           a{
+//             font-size: 20px;
+//             color: #333;
+//             &:hover{
+//               color: #FF7F57;
+//             }
+//           }
+//         }
+//       }
+//     }
+//       // opening hour
+//   .opening-time{
+//     padding-left:0;
+//     li{
+//       list-style: none;
+//       span{
+//         float:left;
+//         padding-right: 10px;
+//         .fa-times{
+//           color: #FF7F57;
+//         }
+//       }
+//         strong{
+//           color: #FF7F57;
+//         }
+//     }
+//   }
+//   .media-body{
+//     a{
+//       color: #333;
+//       &:hover{
+//         color: #FF7F57;
+//       }
+//     }
+//     span{
+//         color: #969696;
+//       }
+//   }
+
+//    // gallery image
+//    .images-gellary{
+//     ul{
+//       padding-left: 0;
+//       li{
+//         list-style: none;
+//         float: left;
+//         margin: 0 3% 2% 0;
+//         width: 31%;
+//         position: relative;
+//         &:nth-child(3n) {
+//     margin: 0 0 1%;
+// }
+//         a{
+          
+//         }
+//       }
+//     }
+//   }
+  
+// }
+// .btn:focus, .btn:active {
+//     outline: none !important;
+//     box-shadow: none !important;
+//   }
